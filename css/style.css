@@ -1,0 +1,13 @@
+.test1{
+	float: left;
+}
+
+.test2{
+	float: right;
+}
+.wraper{
+	background-color: red;
+}
+.claer{
+	clear: both;
+}
