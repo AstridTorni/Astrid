@@ -1,13 +1,42 @@
-.test1{
-	float: left;
+
+/* News css*/
+.date{
+	width: 56px;
+	height: 56px;
+	background-color: #3D58A6;
+	padding: 7px 10px;
+	font-size: 39px;
+	color: #fff;
+}
+.text-block{
+	display: inline-block;
+	width: 929px;
+	vertical-align: top;
+}
+.image-block{
+	vertical-align: top;
+	margin-right: 39px;
+
+}
+.text1{
+	margin-bottom: 21px;
+
 }
 
-.test2{
-	float: right;
+/* contact page*/
+.section-contact{
+	background-color: #E6E6E6;
 }
-.wraper{
-	background-color: red;
+.container{
+	width: 1177px;
+	margin: 0 auto;
 }
-.claer{
-	clear: both;
+.left-block{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+.right-block{
+	display: inline-block;
+	vertical-align: top;
 }
