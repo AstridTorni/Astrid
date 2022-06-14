@@ -40,3 +40,24 @@
 	display: inline-block;
 	vertical-align: top;
 }
+.divider{
+	width: 1px;
+	height: 27px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: middle;
+}
+img{
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.article-title{
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.test1{
+	font-family: 'ALK life';
+}
+.test2{
+	font-family: 'Fascinate', cursive;
+}
