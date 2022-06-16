@@ -1,4 +1,83 @@
+/* positions */
+body{
+	height: 2000px;
+	padding-top: 56px;
+}
+.header{
+	background-color: lightblue;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
 
+}
+
+.logo{
+	display: inline-block;
+	margin-right: 100px;
+}
+.nav{
+	display: inline-block;
+}
+.nav-li{
+	display: inline-block;
+	margin-left: 20px;
+}
+/* */
+.section-1{
+	margin-top: 20px;
+
+}
+.box-wraper{
+	width: 400px;
+	height: 400px;
+	background-color: green;
+	position: relative;
+}
+.box-1{
+	width: 150px;
+	height: 150px;
+	background-color: cyan;
+	position: absolute;
+	right: -30px;
+	bottom: 50px;
+	z-index: 11;
+}
+.box-2{
+	width: 150px;
+	height: 150px;
+	background-color: magenta;
+	position: absolute;
+	right: 20px;
+	bottom: 70px;
+	z-index: 18;
+}
+
+.box-3{
+	width: 50px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	right: 80px;
+	bottom: 100px;
+}
+.box-a{
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	position: relative;
+}
+.box-b{
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 /* News css*/
 .date{
 	width: 56px;
@@ -21,6 +100,20 @@
 .text1{
 	margin-bottom: 21px;
 
+}
+
+.image-wraper{
+	width: 400px;
+	position: relative;
+}
+
+.image1{
+	width: 100%;
+}
+.img-text{
+	position: absolute;
+	top: 50px;
+	right: 100px;
 }
 
 /* contact page*/
@@ -60,4 +153,13 @@ img{
 }
 .test2{
 	font-family: 'Fascinate', cursive;
+}
+
+.icon{
+	 
+}
+.icon-wraper{
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
 }
