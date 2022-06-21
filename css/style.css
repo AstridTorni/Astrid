@@ -1,3 +1,77 @@
+/* Lesson 8*/
+
+
+
+/*-- Hover effects & keyframe animations--*/
+.wraper-box{
+	width: 400px;
+	height: 400px;
+	background-color: grey;
+	position: relative;
+/*hover examples*/
+	/*transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	transition-delay: 2s;*/
+	transition: all 0.5s linear 2s;
+
+}
+
+.wraper-box:hover{
+	background-color: lightgreen;
+}
+.child-box{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(45deg);
+	transition: all 0.5s ease-out;
+}
+
+.child-box:hover{
+	background-color: lightblue;
+	width: 200px;
+	height: 200px;
+	transform: translate(-50%,-50%) rotate(0deg);
+}
+
+/**keyframes*/
+
+/*@keyframes chatanimation {
+	0% {left: 200px; transform: rotate(0deg);}
+	20% {left: 400px; transform: rotate(30deg);}
+	50% {left: 600px; transform: rotate(60deg);}
+    75% {left: 800px; transform: rotate(90deg);}
+    100% {left: 1000px; transform: rotate(180deg);}
+}*/
+
+@keyframes chatanimation2{
+	0% {transform: translate(200px);}
+	20% {transform: translate(400px);}
+	50% {transform: translate(600px);}
+	70% {transform: translate(800px);}
+	100% {transform: translate(1000px);}
+
+}
+.chat-icon{
+	/*position: absolute;
+	animation: chatanimation 5s infinite;*/
+	animation: chatanimation2 5s infinite;
+
+}
+.animation-block{
+	position: relative;
+}
+
+/*Opacity*/
+/*box-shadow, text-shadow, border-radius,
+ filter (on images), */
+
+
+
 /* positions */
 body{
 	height: 2000px;
